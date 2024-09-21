@@ -1,0 +1,404 @@
+*{
+    /* to remove default values*/
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    overflow-x: hidden;/* x axis scrolling is hide*/
+    background-color: rgba(227, 227, 231, 0.611);
+}
+.div1{
+ background-color: rgb(224, 131, 156);
+    height: 150px;
+   
+}
+.logoimg{
+    width:310px;
+    height: 300px;
+    margin-left: -50px;
+    margin-top: -50px;
+    
+}
+/******navbar***/
+.ice1{
+    margin: 3%;
+    height: 3%;
+    margin-top: 10px;
+
+}
+.ice2{
+    margin-top: -10px;
+    height: 3%;
+
+}
+.navbar{
+    background-color:rgb(243, 246, 245) ;
+    border-radius: 20px;
+    border: 2px solid white;
+    /*background: transparent;
+    backdrop-filter: blur(8px);*/
+    width: 150vh;  
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    height: 70px;
+    margin-top: -70px;   
+}
+
+.listItem{
+    display: inline-block; /* DISPLAY CONTENTS SIDE BY SIDE, place each element side by side*/
+    list-style: none;/* to remove bullet points, remove list style(dot)*/
+    margin: -180px 30px;
+
+  /* margin: -200px 30px;*/
+}
+/*.list{
+    height: 50px;
+    width: 50px;
+}*/
+
+/*#logo{
+    height: 100%;
+    filter: drop-shadow(0px 0px 10px rgba(251, 237, 244, 0.5));
+   
+}*/
+.link{
+    /*color: black;*/
+    color: rgb(224, 131, 156);
+    text-decoration: none;
+    font-weight: 800;
+    font-size: larger;
+    display: inline-block;
+}
+.link:hover{
+    color: rgb(20, 152, 178);
+}
+#hname1{
+    font-weight: bold;
+    color:deepskyblue;
+   }
+   #hname2{
+       font-weight: bolder;
+       color:rgb(240, 18, 170) ;
+       ;
+      }
+
+/********HOME******/
+#img1{
+    width: 100%;
+   
+}
+.div3{
+    margin-top:-30px;
+}
+
+.div3text{
+    margin-top: -35rem; 
+    text-align: center;
+    /*font-weight: 800;*/
+}
+.div3btn{
+    background-color: rgb(224, 131, 156);
+    color: white;
+    border-radius: 5%;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none; 
+    padding: 20px;
+}
+.div3btn:hover{
+    background-color: transparent;
+    color: rgb(5, 5, 5);
+}
+#div3span1{
+    font-size: 50px;
+    color:white;
+    font-weight: bolder;
+}
+
+/*#div3span2{
+    font-size: 50px;
+    color: rgba(254, 245, 245, 0.638);
+    font-weight: bold;
+    
+}*/
+
+/*.bg{
+    /*width: 100%;/*same as background image width and height*/
+    /*height: 115vh;*/
+    /*background-color: rgba(88, 1, 1, 0.331);
+
+}*/
+
+
+/********about********************/
+.about{
+margin-top: 400px;
+background-image: url('https://c8.alamy.com/comp/JGBB4K/cute-pastel-colors-ice-cream-seamless-vector-pattern-background-illustration-JGBB4K.jpg');
+height:900px;
+
+}
+.about-heading{
+    justify-content: center;
+
+}
+.about-heading1{
+    margin-bottom:100px;
+    text-align: center;
+    width: 30%;
+    margin-left: 550px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.hr{
+    width: 10%;
+    height: 7px;
+    background-color:palevioletred;
+    margin-left: 700px;
+    margin-bottom:10px;
+    margin-top: 10px;
+}
+.headcontent{
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+   
+}
+.about-content1{
+    justify-content: center;
+}
+.about-image{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+/***************************************/
+.videocontent{
+    display: flex;
+    padding: 10%;
+    
+}
+        
+
+.videoimg:hover{
+    
+    .videobtn{
+        visibility:visible;
+        /*opacity: 0.5;*/
+        background-color:white;
+        border-color: white;
+        border-radius:50%;
+        margin-top: 200px;
+        margin-left: 250px;
+        width: 100px;
+        height: 100px;
+        filter: drop-shadow(0px 0px 10px rgba(98, 15, 42, 0.641));
+        }
+       .iconcl{
+        padding: 0%;
+       } 
+}
+.videopara{
+  text-align: justify;
+}
+.videocontent1{
+padding-left: 35%;
+margin-left: 300px;
+/*background-color:rgb(224, 131, 156);*/
+}
+.videobtn{
+    visibility: hidden;
+   
+}
+.videoimg{
+    filter: drop-shadow(0px 0px 10px rgba(216, 37, 97, 0.5));
+}
+/*****************offers*********************/
+.offerhead{
+padding-left: 20%;
+
+}
+.hr2{
+    width: 10%;
+    height: 7px;
+    background-color:palevioletred;
+    margin-left: 300px;
+    margin-bottom:10px;
+    margin-top: 10px;
+}
+.product{
+    display: flex;
+    padding-top: 5%;
+    padding-left: 10%;
+    width: 200px;
+    height: 100px;
+}
+.product-1{
+    padding-left: 25%;
+    background-color:  rgb(224, 131, 156);
+    margin-left: 150px;
+    /*justify-content: center;*/
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+}
+.proimg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.cardbtn{
+    color: white;
+    background-color: rgba(21, 167, 241, 0.773);
+    border-color: #ebeff2;
+   /* border-color: rgba(21, 167, 241, 0.773);*/
+    border-radius:5%;
+    width: 100PX;
+    font-weight: bold;
+}
+.cards{
+    height: 500px;
+}
+
+.product-1:hover img{
+    
+    transform: rotate(360deg);
+    transform: scale(1.5)
+
+}
+/******************gallery***************/
+.gallery{
+    height: 700px;/*only this*/
+    position: relative;
+  /*width: 50%;*/
+}
+.hr3{
+    width: 10%;
+    height: 7px;
+    background-color:palevioletred;
+    margin-left: 300px;
+    margin-bottom:10px;
+    margin-top: 10px;
+}
+.galleryhead{
+    margin-left:300px;
+    /*width: 100px;*/
+    height: 100px;
+}
+.grid-container{
+  height:550px;
+  display: grid;
+  gap: 10px;
+ /* background-color: #ebeff2;*/
+  padding: 10px;
+  grid: 350px / auto auto auto;
+}
+.grid-container div {
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  .item{
+    width: 100%;
+    height: auto;
+
+  }
+ .middle {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+  }
+   
+  .item:hover .gridimg {
+    opacity: 0.4;
+    
+  }
+  
+  .item:hover .middle {
+    opacity: 1;
+  }
+  
+ 
+  .gridimg{
+    width: 100%;
+    height: 100%;
+  }
+  .gridi{
+    width: fit-content;
+   
+   margin-top: -175px;
+   margin-left: -500px;
+  }
+  .gridi1{
+    width: fit-content;
+   
+   margin-top: -175px;
+   margin-left: -50px;
+  }
+  .gridi2{
+    width: fit-content;
+   
+   margin-top: -175px;
+   margin-left: 500px;
+  }
+  .gridi3{
+    width: fit-content;
+ 
+   margin-top: 200px;
+   margin-left: -500px;
+  }
+  .gridi4{
+    width: fit-content;
+
+   margin-top: 200px;
+   margin-left: -50px;
+  }
+  .gridi5{
+    width: fit-content;
+
+   margin-top: 200px;
+   margin-left: 500px;
+  }
+
+  /**********footer*******/
+  .footerspan1{
+    color:rgb(20, 152, 178) ;
+  }
+  .footerspan2{
+    color:rgb(240, 18, 170) ;
+  }
+  .footer{
+    margin-top: 200px;
+   text-align: center;
+   padding-bottom: 20px;
+  }
+  .iconfooter{
+    color:rgb(240, 18, 170) ;
+    padding-left: 60px;
+  }
+  .iconfooter:hover{
+    color: rgb(20, 152, 178);
+    animation: shake 0.75s;
+  }
+  @keyframes shake{
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(-15deg); 
+    }
+    30%{
+        transform: rotate(15deg);
+    }
+    40%{
+        transform: rotate(-15deg);
+    }
+}
+html{
+    scroll-behavior: smooth;/* for the smooth scrolling*/
+}
